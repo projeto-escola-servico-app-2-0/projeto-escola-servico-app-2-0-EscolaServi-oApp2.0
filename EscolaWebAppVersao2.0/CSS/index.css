@@ -1,0 +1,45 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: arial, verdana, helvetica, sans-serif;
+}
+
+/* Box principal: container*/
+.meu-container{
+  margin: 0 auto;
+  padding: 0;
+  width: 80%;
+  min-height: 100vh;
+  /* Flex */
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #1E90FF;
+  text-align: center;
+}
+
+main {
+  background-color: #708090;
+  flex-grow: 1;
+}
+
+footer {
+  background-color: #000000;
+}
+
+.wrapper {
+  padding: 0;
+}
+
+img.displayed{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
